@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    style="?android:attr/buttonBarStyle">
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.3"
+        android:text="@string/play"
+        app:icon="@drawable/ic_baseline_play_circle_24"
+        tools:layout_editor_absoluteX="63dp"
+        style="?android:attr/buttonBarStyle"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.3"
+        android:text="@string/pause"
+        app:icon="@drawable/ic_baseline_pause_circle_24"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="275dp"
+        style="?android:attr/buttonBarStyle"/>
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.3"
+        android:text="@string/stop"
+        app:icon="@drawable/ic_baseline_stop_circle_24"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="275dp"
+        style="?android:attr/buttonBarStyle"/>
+</LinearLayout> 
